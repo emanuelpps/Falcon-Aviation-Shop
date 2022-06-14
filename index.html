@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Falcon Aviation Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="container-fluid">
+
+    <!--NAV BAR-->
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div id="boton-carrito">
+          <button class="btn btn-primary btn-carrito position-absolute top-100 end-0" id="boton-carrito" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+            <p class="mb-1">Ver Carrito</p><img src="img/cart4.svg" width="25">
+          </button>
+        </div>       
+      </nav>
+    <!--NAV BAR-->
+<main>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            
+    <!--Slide Principal-->
+    <section class="text-center pt-4">
+        <img src="img/Falcon_aviation_logo.png" alt="" class="">
+        <h1 class="text-center mt-4 mb-4">¡Bienvenido a Falcon Aviation Shop!</h1>
+    </section>
+    <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Mustang_Tuskegee.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Boeing767.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Boeing777_Despegando.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Pilotos_Volando.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        </div>
+      <!--Slide Principal-->
+
+      <!--Categorias-->
+      <div class="container text-center pb-5">
+        <hr>
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            <h4>Indumentaria</h4>
+          </div>
+          <div class="col col-lg-2">
+            <h4>Accesorios</h4>
+          </div>
+          <div class="col col-lg-2">
+            <h4>Simulación</h4>
+          </div>
+          <div class="col col-lg-2">
+            <h4>Bibliografía</h4>
+          </div>
+          <div class="col col-lg-2">
+            <h4>Carteleria</h4>
+          </div>
+          <div class="col col-lg-2">
+            <h4>Aero Modelismo</h4>
+          </div>
+        </div>
+        <!--Categorias-->
+
+        <hr>
+
+        <!--Slider Marcas -->
+        <div class="slider slider-body mt-3">
+          <div class="slide-track">
+            <div class="slide">
+              <img src="img/bose.png" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/garmin.png" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/ram-mounts.jpg" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/flight.jpg" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/sennheiser.png" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/pooleys.png" height="100" width="150" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/pilot.png" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/icom.jpg" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/jeppesen.jpg" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/mgf.png" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/lightspeed.jpg" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/cessna-aircraft-company.png" height="100" width="100" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/faa-naco-distribution-division.jpg" height="100" width="100" alt="" />
+            </div>
+          </div>
+        </div>
+        <!--Slider Marcas -->
+
+        <!--Catalogo-->
+    
+            <div class="mt-5 mb-5 container" id="carritoContainer">
+              <h2 class="text-center">PRODUCTOS</h2>
+              <div class="row mt-5" id="contenedor-productos">
+                
+              </div>
+            </div>
+
+            <!-- Template Catalogo -->
+            <template id="template-productos">
+              <div class="col-12 col-md-4 mt-3 mb-3">
+                <div class="card">
+                  <img src="" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <h6 class="card-text"></h6>
+                    <p class="card-text">$<span></span></p>
+                    <button href="#" class="btn btn-success w-50">COMPRAR</button>
+                  </div>
+                </div>
+              </div>
+            </template>
+
+         <!--Catalogo-->
+
+         
+         <!-- Carrito -->
+         <div class="offcanvas offcanvas-start w-50" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="container-fluid">
+              <div>
+                <img src="img/Falcon_aviation_logo.png" width="150" class="mb-3">
+              </div>
+              <hr>
+              <h1 class="text-center">Carrito</h1>
+              <hr>
+      
+              <div class="my-1">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Item</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Acción</th>
+                        <th scope="col">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody id="items"></tbody>
+                    <tfoot>
+                      <tr id="footer-carrito">
+                          <th scope="row" colspan="5">Tu carrito está vacío!</th>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+      
+              <div class="row" id="contenedor-productos"></div>
+      
+      
+          </div>
+          </div>
+        </div>
+
+        <!-- Carrito -->
+
+         
+        <!-- Template Carrito -->
+      <template id="template-footer">
+          <th scope="row" colspan="2">Total productos</th>
+          <td></td>
+          <td>
+            <button class="btn btn-success btn-sm" id="finalizar-carrito">
+                Finalizar Compra
+            </button>
+        </td>
+          <td>
+              <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                  Vaciar Carrito
+              </button>
+          </td>
+          <td class="font-weight-bold align-content-center" width="100">$ <span> 500</span></td>
+      </template>
+
+      <template>
+        
+      </template>
+      
+      <template id="template-carrito">
+        <tr>
+          <th scope="row"><img class="w-25"></th>
+          <td>Nombre Producto</td>
+          <td></td>
+          <td>
+              <button class="btn btn-info btn-sm">
+                  +
+              </button>
+              <button class="btn btn-danger btn-sm">
+                  -
+              </button>
+          </td>
+          <td>$ <span>500</span></td>
+        </tr>
+      </template>
+      <!-- Template Carrito -->
+
+         <!-- Banners Promo-->
+         <section class="bg-white container-fluid">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/3-us.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bose-d2-mach-us.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bose-ue.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/hme-atc-110-us.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <!-- Banners Promo-->
+    </div>
+    </div> 
+</main>
+
+<!-- footer -->          
+<footer class="page-footer font-small bg-light" style="padding-left: 0px;">
+
+  
+    <!-- Grid row-->
+    <hr class="rgba-white-light" style="margin: 0 15%;">
+
+    <!-- Grid row-->
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+      <!-- Grid column -->
+      <div class="col-md-8 col-12 mt-5">
+        <p style="line-height: 1.7rem">Falcon Aviation Shop es tu tienda de productos aeronáuticos, 
+          nos especializamos en todo tipo de accesorios para pilotos y aviones. 
+          En nuestra tienda encontrarás cascos de avión y helicóptero, computadores de navegación, 
+          uniformes de piloto, libros para los cursos de piloto, 
+          regalos para amantes de los aviación y mucho más.</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+    <hr class="d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+    <!-- Grid row-->
+    <div class="row text-center pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-12">
+
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-icon">
+            <i class="bi bi-facebook mx-4" style="font-size: 2rem"></i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-icon">
+            <i class="bi bi-twitter mx-4" style="font-size: 2rem"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="inst-icon">
+            <i class="bi bi-instagram mx-4" style="font-size: 2rem"></i>
+          </a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-dark">© 2022 Copyright:
+    <a href="https://github.com/emanuelpps" class="text-dark"> Emanuel Pagés</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+<!-- footer -->   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  </body>
+</html>
