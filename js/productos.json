@@ -4,7 +4,7 @@
         "nombre":"Headset Bosé A20", 
         "descripcion":"Bosé A20 Auriculares de avación con Bluetooth y Dual Plug",
         "categoria":"accesorios-pilotos",
-        "thumbnailUrl":"../img/bose-a20-headset.jpg",
+        "thumbnailUrl":"./img/bose-a20-headset.jpg",
         "precio":100000
     },
     {
@@ -12,7 +12,7 @@
         "nombre":"Guia de VUelo Pooleys",
         "descripcion":"Edición limitada, guia de vuelo 2022",
         "categoria":"bibliografia",
-        "thumbnailUrl":"../img/pooleys-uk-flight-guide.jpg",
+        "thumbnailUrl":"./img/pooleys-uk-flight-guide.jpg",
         "precio":20000
     },
     {
@@ -20,7 +20,7 @@
         "nombre":"Piernera Jeppesen",
         "descripcion":"Ideal para llevar cartas de aproximación, lo mantendrá organizado y centrarse en su vuelo",
         "categoria":"accesorios-pilotos",
-        "thumbnailUrl":"../img/piernera-jeppesen.jpg",
+        "thumbnailUrl":"./img/piernera-jeppesen.jpg",
         "precio":10000
     },
     {
@@ -28,7 +28,7 @@
         "nombre":"Computador de vuelo Jeppesen",
         "descripcion":"La construccion de metal resistente asegura una larga vida útil, alta precisión y calidad duradera",
         "categoria":"",
-        "thumbnailUrl":"../img/computador-jeppesen.jpg",
+        "thumbnailUrl":"./img/computador-jeppesen.jpg",
         "precio":8000
     },
     {
@@ -36,7 +36,7 @@
         "nombre":"Bolso Airclassics ASA",
         "descripcion":"Bolso perfecto para sus travesías, lleve sus auriculares, cartas y placas de aproximación",
         "categoria":"accesorios-pilotos",
-        "thumbnailUrl":"../img/maletin-asa.jpg",
+        "thumbnailUrl":"./img/maletin-asa.jpg",
         "precio":13500
     },
     {
@@ -44,7 +44,7 @@
         "nombre":"Camisa para piloto",
         "descripcion":"Camisa uniforme de Piloto con charretera",
         "categoria":"indumentaria",
-        "thumbnailUrl":"../img/camisa-piloto.jpg",
+        "thumbnailUrl":"./img/camisa-piloto.jpg",
         "precio":6000
     },
     {
@@ -52,7 +52,7 @@
         "nombre":"Charretera Piloto",
         "descripcion":"Charreter de Primer Oficial (Tres Tiras)",
         "categoria":"indumentaria",
-        "thumbnailUrl":"../img/charretera-piloto.jpg",
+        "thumbnailUrl":"./img/charretera-piloto.jpg",
         "precio":"1500"
     },
     {
@@ -60,7 +60,7 @@
         "nombre":"Gorra 737",
         "descripcion":"Gorra Azul y blanca con dibujo de un Boeing 737",
         "categoria":"indumentaria",
-        "thumbnailUrl":"../img/gorra-737.jpg",
+        "thumbnailUrl":"./img/gorra-737.jpg",
         "precio":"3000"
     },
     {
@@ -68,7 +68,7 @@
         "nombre":"Gorra P-51",
         "descripcion":"Gorra de P-51 Mustang marron, visera a cuadros",
         "categoria":"indumentaria",
-        "thumbnailUrl":"../img/p-51-mustang-cap.jpg",
+        "thumbnailUrl":"./img/p-51-mustang-cap.jpg",
         "precio":"3000"
     },
     {
@@ -76,7 +76,7 @@
         "nombre":"Campera Top Gun",
         "descripcion":"Campera de Cuero Firmada, pelicula Top Gun, producto oficial",
         "categoria":"indumentaria",
-        "thumbnailUrl":"../img/top-gun-signature-leather-jacket.jpg",
+        "thumbnailUrl":"./img/top-gun-signature-leather-jacket.jpg",
         "precio":30000
     },
     {
@@ -84,7 +84,7 @@
         "nombre":"Logitech X56",
         "descripcion":" Joystick de vuelo Logitech X56, Hotas RGB para simulación",
         "categoria":"simulacion",
-        "thumbnailUrl":"../img/LOGITECH-X56-HOTAS-RGB-PARA-SIMULACIONES-DE-VUELO.png",
+        "thumbnailUrl":"./img/LOGITECH-X56-HOTAS-RGB-PARA-SIMULACIONES-DE-VUELO.png",
         "precio":30000
     },
     {
@@ -92,7 +92,7 @@
         "nombre":"Logitech Extreme Pro",
         "descripcion":" Joystick Logitech Extreme 3d Pro, para simulación de vuelo",
         "categoria":"simulacion",
-        "thumbnailUrl":"../img/LOGITECH-EXTREME-3D-PRO-JOYSTICK.jpg",
+        "thumbnailUrl":"./img/LOGITECH-EXTREME-3D-PRO-JOYSTICK.jpg",
         "precio":25000
     },
     {
@@ -100,7 +100,7 @@
         "nombre":"Red Bird Flight",
         "descripcion":"Red Bird Alloy Flight Simulator Yoke YK1",
         "categoria":"simulacion",
-        "thumbnailUrl":"../img/REDBIRD-ALLOY-FLIGHT-SIMULATION-YOKE-YK1.jpg",
+        "thumbnailUrl":"./img/REDBIRD-ALLOY-FLIGHT-SIMULATION-YOKE-YK1.jpg",
         "precio":75000
         }, 
     {
@@ -108,7 +108,7 @@
         "nombre":"Turtle Beach Velocity One",
         "descripcion":"Turtle Beach Velocity One Flight Simulator Universal control yoke and throttle system",
         "categoria":"simulacion",
-        "thumbnailUrl":"../img/Turtle-Beach-VelocityOne-Flight-Simulator-Universal-Control-Yoke-and-Throttle-System.jpg",
+        "thumbnailUrl":"./img/Turtle-Beach-VelocityOne-Flight-Simulator-Universal-Control-Yoke-and-Throttle-System.jpg",
         "precio":"85000"
     },
     {
@@ -116,7 +116,7 @@
         "nombre":"Manual de Instructor de Vuelo",
         "descripcion":"Manual oficial de la FAA (FAA-H-8083-9B), un recurso integral para prepararse para el Examen de conocimientos de Fundamentos de la instrucción.",
         "categoria":"Bibliografia",
-        "thumbnailUrl":"../img/manual-de-instructor.jpg",
+        "thumbnailUrl":"./img/manual-de-instructor.jpg",
         "precio":"3399"
     },
     {
@@ -124,7 +124,7 @@
         "nombre":"Manual de Cessna 172",
         "descripcion":"Este libro es una guía completa sobre los fundamentos de vuelo del avión especificado.",
         "categoria":"Bibliografia",
-        "thumbnailUrl":"../img/cessna-172.jpg",
+        "thumbnailUrl":"./img/cessna-172.jpg",
         "precio":"2600"
     },
     {
@@ -132,7 +132,7 @@
         "nombre":"Manual de Cessna 152",
         "descripcion":"Este libro es una guía completa sobre los fundamentos de vuelo del avión especificado.",
         "categoria":"Bibliografia",
-        "thumbnailUrl":"../img/cessna-152.jpg",
+        "thumbnailUrl":"./img/cessna-152.jpg",
         "precio":"2600"
     },
     {
@@ -140,7 +140,7 @@
         "nombre":"Jeppesen Private Pilot Manual",
         "descripcion":"La organización intuitiva y la colorida presentación hacen que este manual sea una ayuda de estudio esencial en su viaje para convertirse en un piloto privado de avión.",
         "categoria":"Bibliografia",
-        "thumbnailUrl":"../img/private-pilot-textbook.jpg",
+        "thumbnailUrl":"./img/private-pilot-textbook.jpg",
         "precio":"17700"
     },
     {
@@ -148,7 +148,7 @@
         "nombre":"Aviation Weather",
         "descripcion":"Meteorología Aeronautica",
         "categoria":"Bibliografia",
-        "thumbnailUrl":"../img/aviation-weather.jpg",
+        "thumbnailUrl":"./img/aviation-weather.jpg",
         "precio":"2700"
     },
     {
@@ -156,7 +156,7 @@
         "nombre":"Supermarine Spitfire MKVIIIa",
         "descripcion":"Aeromodelismo - Escala 1:72",
         "categoria":"Aeromodelismo",
-        "thumbnailUrl":"../img/Modelismo-spitfire.jpg",
+        "thumbnailUrl":"./img/Modelismo-spitfire.jpg",
         "precio":"5000"
     },
     {
@@ -164,7 +164,7 @@
         "nombre":"Douglas DC2",
         "descripcion":"Aeromodelismo - Escala 1:72",
         "categoria": "Aeromodelismo",
-        "thumbnailUrl":"../img/Modelismo-dc3.jpg",
+        "thumbnailUrl":"./img/Modelismo-dc3.jpg",
         "precio":"4500"
     },
     {
@@ -172,7 +172,7 @@
         "nombre":"UAT Union Aéromaritime de Transport",
         "descripcion":"Cartel antiguo - Medidas 20 x 30 Cm",
         "categoria":"Carteleria",
-        "thumbnailUrl":"../img/UAT.jpg",
+        "thumbnailUrl":"./img/UAT.jpg",
         "precio":"2000"
     },
     {
@@ -180,7 +180,7 @@
         "nombre":"DC-4 CGTA",
         "descripcion":"Cartel CGTA Air Algérie DC-4 - Medidas 20 x 30 Cm",
         "categoria":"Carteleria",
-        "thumbnailUrl":"../img/CGTA-DC4.jpg",
+        "thumbnailUrl":"./img/CGTA-DC4.jpg",
         "precio":"3000"
     },
     {
@@ -188,7 +188,7 @@
         "nombre":"Transavia Poster",
         "descripcion":"Cartel Azafata Transavia Airlines - Medidas 20 x 30 Cm",
         "categoria":"Carteleria",
-        "thumbnailUrl":"../img/Azafata-avion.jpg",
+        "thumbnailUrl":"./img/Azafata-avion.jpg",
         "precio":"2000"
     }
 ]
