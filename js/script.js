@@ -6,11 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-//Utilizamos JSON local
-
 const fetchData = async () => {
     try {
-        const res = await fetch ('../js/productos.json')
+        const res = await fetch ('js/productos.json')
         const data = await res.json()
         dibujarProductos(data);
         botonComprar(data);
